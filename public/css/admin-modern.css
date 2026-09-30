@@ -1,0 +1,125 @@
+/* Table-only theme for selected report/master pages.
+   Layout, sidebar, navbar, cards, and forms remain AdminLTE default. */
+.uniform-table-theme .table:not(.table-borderless) {
+    --bs-table-border-color: #d7dde6;
+    color: #111827;
+    font-size: .875rem;
+}
+
+.uniform-table-theme .table:not(.table-borderless) > :not(caption) > * > * {
+    padding: .5rem .62rem;
+    vertical-align: middle;
+}
+
+.uniform-table-theme .table:not(.table-borderless) thead th,
+.uniform-table-theme .table:not(.table-borderless) thead td {
+    border-color: #c8d1dc;
+    border-bottom: 1px solid #bdc7d4;
+    background-color: #f8f9fa !important;
+    color: #111827 !important;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.uniform-table-theme .table:not(.table-borderless) tbody td,
+.uniform-table-theme .table:not(.table-borderless) tbody th {
+    border-color: #dde3eb;
+}
+
+.uniform-table-theme .table-bordered {
+    border-color: #d7dde6;
+}
+
+.uniform-table-theme .table-bordered > :not(caption) > * > * {
+    border-color: #d7dde6;
+}
+
+.uniform-table-theme .table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: #fbfcfe;
+}
+
+.uniform-table-theme .table-hover > tbody > tr:hover > *,
+.uniform-table-theme table.dataTable tbody tr:hover > * {
+    --bs-table-bg-state: #eef7ff;
+    background-color: #eef7ff !important;
+}
+
+.uniform-table-theme .table-sm:not(.table-borderless) > :not(caption) > * > * {
+    padding: .43rem .55rem;
+}
+
+.uniform-table-theme .table:not(.table-borderless) tfoot th,
+.uniform-table-theme .table:not(.table-borderless) tfoot td,
+.uniform-table-theme .table:not(.table-borderless) tfoot.table-primary th,
+.uniform-table-theme .table:not(.table-borderless) tfoot.table-primary td,
+.uniform-table-theme .table:not(.table-borderless) tfoot.table-success th,
+.uniform-table-theme .table:not(.table-borderless) tfoot.table-success td,
+.uniform-table-theme .table:not(.table-borderless) tr.table-primary > *,
+.uniform-table-theme .table:not(.table-borderless) tr.table-success > * {
+    border-color: #b7c9ea;
+    background-color: #cfe2ff !important;
+    color: #052c65 !important;
+    font-weight: 800;
+}
+
+.uniform-table-theme .table-responsive {
+    border-radius: 6px;
+}
+
+.uniform-table-theme table.dataTable {
+    border-collapse: collapse !important;
+}
+
+.uniform-table-theme .dataTables_wrapper .row {
+    row-gap: .5rem;
+}
+
+.uniform-table-theme .dataTables_wrapper .dataTables_filter input,
+.uniform-table-theme .dataTables_wrapper .dataTables_length select {
+    border: 1px solid #cfd8e3;
+    border-radius: 6px;
+    padding: .35rem .55rem;
+    background: #fff;
+}
+
+.uniform-table-theme .dataTables_wrapper .dataTables_info {
+    color: #5b6677;
+    font-size: .82rem;
+}
+
+.uniform-table-theme .dataTables_wrapper .dataTables_paginate .paginate_button,
+.uniform-table-theme .page-link {
+    border-radius: 6px !important;
+}
+
+.uniform-table-theme .dataTables_wrapper .dataTables_paginate,
+.uniform-table-theme .riwayat-pagination .pagination {
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+.uniform-table-theme .dataTables_wrapper .dataTables_length label,
+.uniform-table-theme .dataTables_wrapper .dataTables_filter label,
+.uniform-table-theme .server-table-length label {
+    color: #4b5563;
+    font-size: .84rem;
+    font-weight: 600;
+}
+
+.uniform-table-theme .server-table-length select {
+    width: auto;
+    min-width: 74px;
+    border: 1px solid #cfd8e3;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: .28rem 1.85rem .28rem .55rem;
+}
+
+.uniform-table-theme .btn-group.btn-group-sm > .btn,
+.uniform-table-theme .table .btn-sm,
+.uniform-table-theme .table .btn-xs {
+    padding: .22rem .45rem;
+    line-height: 1.2;
+}
